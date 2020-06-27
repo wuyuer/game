@@ -9,3 +9,8 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+    allow:
+      # Allow only direct updates for
+      # Django and any packages starting "django"
+      - dependency-name: "pygame*"
+        dependency-type: "direct"
