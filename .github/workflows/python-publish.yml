@@ -21,6 +21,7 @@ jobs:
     - name: Set up sdl dependency
       run: |
         sudo apt-get install libsdl1.2-dev python-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libsdl-ttf2.0-dev libsmpeg-dev python-numpy subversion libportmidi-dev ffmpeg libswscale-dev libavformat-dev libavcodec-dev
+      
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
