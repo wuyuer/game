@@ -25,10 +25,10 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  TKE_IMAGE_URL: ccr.ccs.tencentyun.com/demo/mywebapp
+  TKE_IMAGE_URL: ccr.ccs.tencentyun.com/tsf_100001049378/test_elaine
   TKE_REGION: ap-guangzhou
-  TKE_CLUSTER_ID: cls-mywebapp
-  DEPLOYMENT_NAME: tke-test
+  TKE_CLUSTER_ID: cls-imx2ywpq
+  DEPLOYMENT_NAME: test-yjwu
 
 jobs:
   setup-build-publish-deploy:
