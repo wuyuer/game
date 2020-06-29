@@ -153,7 +153,7 @@ class Button(object):
         
 	def __init__(self, surface, pos=vec2d(0, 0), btntype="", imgnames=[], text="", textcolor=(0,0,0), 
 		textimg=0,padding=0, attached=""):
-		print "In button init method"
+		print ("In button init method")`
 		self.surface = surface
 		self.pos = pos
 		self.btntype = btntype
